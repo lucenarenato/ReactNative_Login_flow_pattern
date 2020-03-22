@@ -1,0 +1,31 @@
+{
+  "name": "demoLoginApp",
+  "version": "0.0.1",
+  "author": "Renato Lucena",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "start-android": "react-native run-android"
+  },
+  "dependencies": {
+    "expo": "^36.0.0",
+    "react": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
+    "react-navigation": "^2.18.2",
+    "react-native-paper": "3.1.1",
+    "react-native-animatable": "1.3.3",
+    "react-native-iphone-x-helper": "1.2.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-expo": "^7.0.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.3",
+    "react-test-renderer": "16.6.0-alpha.8af6728"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
